@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Kayanna Laster | Full Stack Developer</title>
+  </head>
+  <body>
+    <nav class="navBar">
+      <div class="nav__content">
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="icons">
+          <div id="cart-btn" class="fas fa-shopping-cart"></div>
+      </div>
+      </div>
+    </nav>
+
+<!-- shopping cart -->
+
+<div class="cart-items-container">
+
+  <div id="close" class="fas fa-times"></div>
+  <h1>Cart stuff here</h1>
+  <a href="#" class="btn"> checkout</a>
+</div>
+
+
+<!-- shopping cart -->
+
+
+    <!-- home -->
+
+    <section class="product--card" id="product--card">
+        <div class="productCon">
+            <div class="Skeleton Lamp">
+                <img src="images/lamp.png" alt="lamp" style="width:100%">
+                <button onclick= addToCart()> Add to Cart</button>
+            </div>      
+        </div>
+  </section>
+  <script src="main.js"></script>
+  <!-- home -->
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Kayanna Laster | Full Stack Developer</title>
+  </head>
+  <body>
+    <nav class="navBar">
+      <div class="nav__content">
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="icons">
+          <div id="cart-btn" class="fas fa-shopping-cart"></div>
+      </div>
+      </div>
+    </nav>
+
+<!-- shopping cart -->
+
+<div class="cart-items-container">
+
+  <div id="close" class="fas fa-times"></div>
+  <h1>Cart stuff here</h1>
+  <a href="#" class="btn"> checkout</a>
+</div>
+
+
+<!-- shopping cart -->
+
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+      <div class="swiper home-slider">
+          <div class="swiper-wrapper">
+
+              <div class="swiper-slide slide" style="background: url(images/heroImage.jpg) no-repeat;">
+                  <div class="content">
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </section>
+  <secton class="products" id="products">
+    <h1 class="title"> Products </h1>
+    <div class="polaroid">
+        <button onclick="window.location.href = 'Skellamp .html';">
+        <img src="images/lamp.png" alt="lamp" style="width:100%">
+        <div class="containerp">
+        <p>Skeleton Lamp</p>
+        </div>
+        </button>
+      </div>
+  </secton>
+  <script src="main.js"></script>
+  <!-- home -->
+  </body>
+</html>

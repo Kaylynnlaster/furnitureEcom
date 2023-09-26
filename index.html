@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Kayanna Laster | Full Stack Developer</title>
+  </head>
+  <body>
+    <nav class="navBar">
+      <div class="nav__content">
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="icons">
+          <div id="cart-btn" class="fas fa-shopping-cart"></div>
+          <div id="account-btn" class="fas fa-user"></div>
+      </div>
+      </div>
+    </nav>
+
+<!-- shopping cart -->
+
+<div class="cart-items-container">
+
+  <div id="close" class="fas fa-times"></div>
+  <h1>Cart stuff here</h1>
+  <a href="#" class="btn"> checkout</a>
+</div>
+
+
+<!-- shopping cart -->
+
+<!-- account form -->
+
+<div class="account-form">
+  <div id="close-form" class="fas fa-times"></div>
+
+  <div class="buttons">
+      <span class="btn active login-btn">login</span>
+      <span class="btn register-btn">register</span>
+  </div>
+
+  <form action="" class="login-form active">
+      <h3>Login now</h3>
+      <input type="username" id ="username" placeholder="enter your username" class="box">
+      <input type="password" id ="password" placeholder="enter your password" class="box">
+      <div class="flex">
+          <input type="checkbox" name="" id="remember-me">
+          <label for="remember-me"> remember me</label>
+          <a href="#">forgot password</a>
+      </div>
+      <input type="submit" onclick=" return login()" value="login" class="btn">
+  </form>
+
+  <form action="" class="register-form">
+      <h3>register now</h3>
+      <input type="username" id ="newUser" placeholder="enter your username" class="box">
+      <input type="password" id ="newPass" placeholder="enter your password" class="box">
+      <input type="submit" onclick="return register()" value="register" class="btn">
+  </form>
+
+</div>
+
+<!-- account form -->
+
+
+    <!-- home -->
+
+    <section class="home" id="home">
+
+      <div class="swiper home-slider">
+          <div class="swiper-wrapper">
+
+              <div class="swiper-slide slide" style="background: url(images/heroImage.jpg) no-repeat;">
+                  <div class="content">
+                      <h3>we just make a perfect furniture for home</h3>
+                      <span>with you since 1965</span>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </section>
+  <script src="main.js"></script>
+  <!-- home -->
+  </body>
+</html>
