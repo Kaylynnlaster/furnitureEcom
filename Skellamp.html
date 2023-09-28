@@ -36,7 +36,8 @@
 
   <div id="close" class="fas fa-times"></div>
   <h1>Cart stuff here</h1>
-  <a href="#" class="btn"> checkout</a>
+  <ul style="list-style-type:disc" id="myList"></ul>
+  <input type="submit" onclick=" checkout()" value="checkout" class="btn">
 </div>
 
 
@@ -49,7 +50,7 @@
         <div class="productCon">
             <div class="Skeleton Lamp">
                 <img src="images/lamp.png" alt="lamp" style="width:100%">
-                <button onclick= addToCart()> Add to Cart</button>
+                <button onclick= addToCart(0)> Add to Cart</button>
             </div>      
         </div>
   </section>

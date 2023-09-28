@@ -1,3 +1,7 @@
+allOrders = []
+
+localStorage['allOrders'] = allOrders;
+
 
 var products = [
     {
