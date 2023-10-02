@@ -3,7 +3,19 @@ var products = [
     {
         name: "Skeleton Lamp",
         price: 10.00
-    }
+    },
+    {
+        name: "Demon Hand Jewelry Holder",
+        price: 15.00
+    },
+    {
+        name: "Skeleton Plant Holder",
+        price: 20.00
+    },
+    {
+        name: "Coffin Table",
+        price: 150.00
+    },
 ]
 
 var myCart = []

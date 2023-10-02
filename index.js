@@ -16,7 +16,7 @@ var Order = []
 var objUsers = [
     {
         username:"jackson5",
-        password:"candy"
+        password:"abc"
     },
     {
         username:"jill&jack",
@@ -76,7 +76,9 @@ function addToCart(i) {
     }
     for (i = 0; i < myCart.length; ++i) {
         let li = document.createElement('li');
-        li.innerText = myCart[i].name;
+        var proString = myCart[i].name + " price: " + myCart[i].price;
+        console.log(proString)
+        li.innerText = proString
         list.appendChild(li);
     }
     Order.length = 0;

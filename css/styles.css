@@ -3,10 +3,11 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #ffffff;
+    background-color: 	#a79494;
     z-index: 99;
     opacity: .7;
   }
+  
   
   .nav__content {
     max-width: var(--max-width);
@@ -128,6 +129,31 @@ nav {
   .home{
     padding: 0;
 }
+body {
+  background-color: #a79494;
+}
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0e213a;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn:hover {background-color: #0e213a}
+
+.btn:active {
+  background-color: #0e213a;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
 
 /* shopping cart */
 
@@ -136,7 +162,7 @@ nav {
   top: 0;
   right: -105%;
   width: 35rem;
-  background: var(--white);
+  background: #5a4252;
   display: flex;
   flex-flow: column;
   gap: 2rem;
@@ -188,6 +214,18 @@ nav {
 
 .cart-items-container .cart-item img{
   height: 7rem;
+}
+
+.productCon{
+  height: 100px;
+  width: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.product--card {
+  text-align: center;
+  margin-top: 10%;
 }
 
 .cart-items-container .cart-item .content h3{
@@ -317,17 +355,22 @@ nav {
     text-align: center;
 }
 
+.account-form {
+  background-color: #5a4252;
+}
+
 .home .slide .content h3{
     font-size: 5rem;
     text-transform: uppercase;
-    color: var(--bg);
+    color: black;
     line-height: 1.1;
     padding: 2rem 0;
 }
 
 .home .slide .content span{
     font-size: 2.5rem;
-    color: var(--primary-color);
+    color: white;
+    font-weight: bold;
 }
 
 .home .swiper-slide-active .content{
@@ -341,6 +384,7 @@ div.polaroid {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
+  display:inline-block;
 }
 
 div.containerp {
